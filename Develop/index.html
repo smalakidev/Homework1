@@ -4,14 +4,16 @@
 <head>
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="./assets/css/style.css">
-    <!-- website name -->
+    <!-- website name added in place of title-->
     <title>Horiseon</title>
 </head>
 
 <body>
-    <div class="header">
+    <!--Div changed to header because it fulfills header as one of the main elements of a webpage-->
+    <header> 
         <h1>Hori<span class="seo">seo</span>n</h1>
-        <div>
+        <!--Div changed to Nav because that is what those 3 lists are-->
+        <nav> 
             <ul>
                 <li>
                     <a href="#search-engine-optimization">Search Engine Optimization</a>
@@ -23,11 +25,13 @@
                     <a href="#social-media-marketing">Social Media Marketing</a>
                 </li>
             </ul>
-        </div>
-    </div>
+        </nav>
+    <header>
     <div class="hero"></div>
-    <div class="content">
-        <div class="search-engine-optimization">
+    <!--Main class was put into here and replaced id class -->
+    <main class="content">
+        <!--Div id was added here because it allowed the link to work-->
+       <div id="serach-engine-optimization" class="search-engine-optimization">
             <img src="./assets/images/search-engine-optimization.jpg" class="float-left" />
             <h2>Search Engine Optimization</h2>
             <p>
@@ -48,8 +52,9 @@
                 Social media continues to have a sizable influence on buying habits. Social media marketing helps you determine which platforms are suited to your brand, using analytics to find the right markets and increase your lead generation.
             </p>
         </div>
-    </div>
-    <div class="benefits">
+    </main>
+    <!--This was made into an aside class instead of a div class because it is on the side of the webpage-->
+    <aside class="benefit-lead">
         <div class="benefit-lead">
             <h3>Lead Generation</h3>
             <img src="./assets/images/lead-generation.png" />
@@ -71,13 +76,14 @@
                 As the search ranking for your business increases, your advertising costs decrease, and you no longer need to advertise your page.
             </p>
         </div>
-    </div>
-    <div class="footer">
+    </aside>
+<!--Div tag changed and replaced by footer-->
+    <footer> 
         <h2>Made with ❤️️ by Horiseon</h2>
         <p>
             &copy; 2019 Horiseon Social Solution Services, Inc.
         </p>
-    </div>
+    </footer>
 </body>
 
 </html>
