@@ -8,7 +8,7 @@ body {
     background-color: #d9dcd6;
 }
 /*Dots were eliminated to match with the HTML header tag*/ 
-/* The headers are not classes*/
+/* The headers are not classes in this case*/
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -99,24 +99,13 @@ p {
     text-align: center;
 }
 
-
-.benefit-lead img {
+/* All three of these were consolidated*/
+.benefit-lead img, .benefit-brand img,.benefit-cost img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
 
 .search-engine-optimization {
     margin-bottom: 20px;
